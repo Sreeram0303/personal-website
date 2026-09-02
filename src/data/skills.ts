@@ -37,6 +37,6 @@ export const skillGroups: SkillGroup[] = [
   {
     label: "Frontend",
     description: "Enough to take an idea all the way to the interface.",
-    items: ["React"],
+    items: ["HTML", "CSS", "JavaScript", "React"],
   },
 ];

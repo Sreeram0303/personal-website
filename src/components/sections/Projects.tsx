@@ -119,7 +119,7 @@ export function Projects() {
     <section id="work" className="mx-auto max-w-350 py-28">
       <div className="px-6 sm:px-10">
         <SectionHeading
-          label="Work"
+          label="projects.map()"
           title="Built. Broken. Learned. Rebuilt."
           subtitle="A growing collection of things I've built — each one teaching me something I didn't know before."
         />

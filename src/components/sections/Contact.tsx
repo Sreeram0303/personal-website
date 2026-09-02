@@ -9,7 +9,7 @@ export function Contact() {
       <Reveal>
         <Spotlight className="grid gap-10 rounded-2xl border border-accent-dim bg-background-elevated p-8 transition-colors duration-300 hover:border-accent sm:p-14 lg:grid-cols-2 lg:items-center lg:gap-16">
           <div className="flex flex-col gap-8">
-            <span className="font-mono text-sm text-accent">Contact</span>
+            <span className="font-mono text-sm text-accent">socialLinks.map()</span>
             <StaggerHeading
               text="Building intelligent systems, and open to the next one worth building."
               className="max-w-2xl text-3xl font-semibold tracking-tight text-foreground sm:text-5xl"

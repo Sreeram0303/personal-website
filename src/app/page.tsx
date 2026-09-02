@@ -9,7 +9,7 @@ import { Contact } from "@/components/sections/Contact";
 
 export default function Home() {
   return (
-    <div className="flex flex-1 flex-col">
+    <div className="flex flex-1 flex-col xl:pl-24">
       <Nav />
       <main className="flex-1">
         <Hero />

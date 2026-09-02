@@ -2,7 +2,7 @@ import { socialLinks } from "@/data/socialLinks";
 
 export function SocialRail() {
   return (
-    <div className="pointer-events-none fixed inset-y-0 left-0 z-30 hidden w-16 items-center justify-center 2xl:flex">
+    <div className="pointer-events-none fixed inset-y-0 left-0 z-30 hidden w-16 items-center justify-center xl:flex">
       <div className="flex flex-col items-center gap-5">
         <div className="h-16 w-px bg-border" />
         {socialLinks.map((link) => (

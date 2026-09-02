@@ -7,7 +7,7 @@ import { philosophyParagraphs, philosophyQuestions, philosophyFlow } from "@/dat
 export function Philosophy() {
   return (
     <section id="philosophy" className="mx-auto max-w-350 px-6 py-28 sm:px-10">
-      <SectionHeading label="Philosophy" title="The same process, every time." />
+      <SectionHeading label="philosophyFlow.map()" title="The same process, every time." />
 
       <Reveal>
         <div className="mb-14 flex flex-wrap items-center gap-x-3 gap-y-4 sm:mb-16">

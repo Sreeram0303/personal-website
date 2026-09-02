@@ -16,6 +16,9 @@ import {
   SiPandas,
   SiNumpy,
   SiPlotly,
+  SiHtml5,
+  SiCss,
+  SiJavascript,
 } from "react-icons/si";
 import { DiJava } from "react-icons/di";
 import {
@@ -43,6 +46,9 @@ export const skillIcons: Record<string, IconType> = {
   Redis: SiRedis,
   SSE: LuRadio,
   React: SiReact,
+  HTML: SiHtml5,
+  CSS: SiCss,
+  JavaScript: SiJavascript,
 
   LLMs: LuBrain,
   RAG: LuLibrary,
