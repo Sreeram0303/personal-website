@@ -1,3 +1,5 @@
+export const philosophyFlow = ["Understand", "Design", "Build", "Debug", "Improve"];
+
 export type PhilosophyParagraph = {
   lead: string;
   emphasis: string;
