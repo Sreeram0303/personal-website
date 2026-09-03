@@ -51,9 +51,11 @@ export function Nav() {
             href={profile.resumeUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-border px-4 py-1.5 font-mono text-xs text-foreground transition-colors hover:border-accent hover:text-accent"
+            className="group rounded-full border border-border px-4 py-1.5 font-mono text-xs text-foreground transition-colors hover:border-accent"
           >
+            <span className="text-accent transition-colors group-hover:text-foreground">&lt;</span>
             Resume
+            <span className="text-accent transition-colors group-hover:text-foreground"> /&gt;</span>
           </a>
           <button
             type="button"
