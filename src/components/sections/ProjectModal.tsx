@@ -62,6 +62,7 @@ export function ProjectModal({
             exit={{ opacity: 0, y: 16, scale: 0.97 }}
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
             onClick={(e) => e.stopPropagation()}
+            data-lenis-prevent
             className="relative max-h-[85vh] w-full max-w-4xl overflow-y-auto rounded-2xl border border-border bg-background-elevated p-6 sm:p-10"
           >
             <button
